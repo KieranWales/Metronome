@@ -1,0 +1,27 @@
+.center {
+    margin: auto;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    justify-content: space-between;
+}
+
+#minus {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+#bpm {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    text-align: center;
+}
+
+#plus {
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
